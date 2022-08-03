@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\Documents\\introducao-javascript-inicial\\introducao-javascript\\img"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\Documents\\introducao-javascript-inicial\\introducao-javascript\\js"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\Documents\\introducao-javascript-inicial\\introducao-javascript\\css"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "javascript-na-pratica"
+	}
+}

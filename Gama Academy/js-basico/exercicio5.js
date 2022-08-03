@@ -1,0 +1,23 @@
+/*| Exemplo 05 | Descrição |
+| --- | --- |
+| `Quero somar` | Faça um programa que peça dois números e imprima no console a 
+soma desses dois números.|*/
+
+const prompt = require('prompt');
+
+prompt.start();
+
+prompt.get(['num1', 'num2'], function (err, result) {
+  if (err) {
+    return onErr(err);
+  }
+  console.log('Forneça dois números para soma-los');
+  console.log('  Número 1: ' + result.num1);
+  console.log('  Número 2: ' + result.num2);
+  console.log(parseInt(result.num1)+parseInt(result.num2))
+});
+
+function onErr(err) {
+  console.log(err);
+  return 1;
+}
