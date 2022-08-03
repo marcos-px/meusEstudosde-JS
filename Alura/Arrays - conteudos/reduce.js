@@ -17,3 +17,11 @@ function mediaSala(notasDaSala){
 console.log(`A média da sala de JS ${mediaSala(salaJS)}`);
 console.log(`A média da sala de Java ${mediaSala(salaJava)}`);
 console.log(`A média da sala de Python ${mediaSala(salaPython)}`);
+
+//outra forma
+
+const notas = [10,6.5,8,7]
+
+const media = notas.reduce((acum,atual) => atual+acum,0)/notas.length;
+
+console.log(media)

@@ -22,4 +22,4 @@ const calculaIdade = (idade) =>
 console.log(calculaIdade(17))
 
 
-const reprovados = nomes.filter(aluno,indice) => ;//quando tem mais de um parâmetro na arrow funtcion coloca parênteses entre ele
+// const reprovados = nomes.filter(aluno,indice) => ;//quando tem mais de um parâmetro na arrow funtcion coloca parênteses entre ele

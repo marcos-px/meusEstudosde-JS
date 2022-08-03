@@ -18,4 +18,4 @@ const exibeNomeeNota = (nomeDoAluno)    => {
 
 };
 
-console.log(exibeNomeeNota("Caioo")) /*no console.log (retorna nome da função("Nome do indice a procurar")*/
+console.log(exibeNomeeNota("Caio")) /*no console.log (retorna nome da função("Nome do indice a procurar")*/
