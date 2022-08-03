@@ -20,3 +20,6 @@ const calculaIdade = (idade) =>
             idade >=70 ? 'Voto Opcional':'Voto Opcional'
 
 console.log(calculaIdade(17))
+
+
+const reprovados = nomes.filter(aluno,indice) => ;//quando tem mais de um parâmetro na arrow funtcion coloca parênteses entre ele
